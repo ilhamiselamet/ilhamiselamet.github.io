@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-title: who the cyrogue?
+title: who?
 icon: fas fa-info-circle
 order: 4
 ---
