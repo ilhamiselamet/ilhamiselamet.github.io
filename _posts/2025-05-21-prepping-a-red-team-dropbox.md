@@ -1,6 +1,6 @@
 ---
 title: Prepping a Red Team Dropbox - A Practical Guide to Stealthy Hardware Implants - 1
-categories: [redteam,hardware,initial]
+categories: [redteam,hardware,i]
 tags: [pentesting,redteam,dropbox]
 comments: true
 ---
@@ -16,7 +16,7 @@ In this blog post, I’ll walk you through the essentials of prepping a dropbox 
 
 First things first: **portability and stealth** are non-negotiable. Depending on the operation, the device should be small, quiet (no fans if possible), and power-efficient. For this red team dropbox, I selected a **compact, powerful, and network-resilient setup** based on the following components:
 
-**[Raspberry Pi 4 / 5*](https://www.raspberrypi.com/products/raspberry-pi-5/)**
+[**Raspberry Pi 4 / 5**](https://www.raspberrypi.com/products/raspberry-pi-5/)
 The **Raspberry Pi 5** is the heart of the implant:
 
 - **Powerfull processor and high specs**: More than enough for running VPN tunnels, C2 agents, packet captures, and even light pivoting tasks.
@@ -104,7 +104,8 @@ Now run the following command to connect to the Internet.
 sudo ./quectel-CM -s [YOUR APN]
 ```
 
-> [!NOTE]
+> 📘 NOTE
+>
 > ./quectel-CM [-s [apn [user password auth]]] [-p pincode] [-f logfilename] -s [apn [user password auth]]
 
 Finally, request an IP address using udhcpc:
@@ -169,3 +170,4 @@ Stay tuned — and stay stealthy. 👻
 
 
 ## Photos
+
